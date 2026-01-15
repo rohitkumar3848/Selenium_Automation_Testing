@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-01-15T10:43:18 UTC" name="Default Suite" finished-at="2026-01-15T10:43:32 UTC" duration-ms="14082">
+    <groups>
+    </groups>
+    <test started-at="2026-01-15T10:43:18 UTC" name="SmartBazar" finished-at="2026-01-15T10:43:32 UTC" duration-ms="14082">
+      <class name="testCase.SmartBazar">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCase.SmartBazar@694abbdc]" started-at="2026-01-15T10:43:18 UTC" name="setUp" finished-at="2026-01-15T10:43:27 UTC" duration-ms="9027" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getPriceTest()[pri:0, instance:testCase.SmartBazar@694abbdc]" started-at="2026-01-15T10:43:27 UTC" name="getPriceTest" finished-at="2026-01-15T10:43:32 UTC" duration-ms="4780" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPriceTest -->
+        <test-method is-config="true" signature="after()[pri:0, instance:testCase.SmartBazar@694abbdc]" started-at="2026-01-15T10:43:32 UTC" name="after" finished-at="2026-01-15T10:43:32 UTC" duration-ms="213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- testCase.SmartBazar -->
+    </test> <!-- SmartBazar -->
+  </suite> <!-- Default Suite -->
+</testng-results>
