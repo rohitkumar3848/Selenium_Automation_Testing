@@ -1,7 +1,6 @@
 package Locators;
 
-import Browser.browser;
-import org.openqa.selenium.By;
+import BrowserCheck.browser;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.*;
 

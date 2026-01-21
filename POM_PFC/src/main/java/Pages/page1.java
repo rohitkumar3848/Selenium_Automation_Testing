@@ -1,13 +1,12 @@
 package Pages;
 
 import Locators.Page1Object;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 
-import static Browser.browser.driver;
+import static BrowserCheck.browser.driver;
 
 public class page1 {
 

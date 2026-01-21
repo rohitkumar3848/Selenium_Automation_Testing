@@ -1,10 +1,8 @@
 package TestCase;
 
-import Browser.browser;
-import Browser.utility;
+import BrowserCheck.browser;
+import BrowserCheck.utility;
 import Pages.page1;
-import Pages.page2;
-import Screenshot.capture;
 
 public class app {
     public static void main(String args[])throws Exception{

@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-15T10:43:18 UTC" name="Default Suite" finished-at="2026-01-15T10:43:32 UTC" duration-ms="14082">
+  <suite started-at="2026-01-16T04:30:47 UTC" name="Default Suite" finished-at="2026-01-16T04:31:01 UTC" duration-ms="14541">
     <groups>
     </groups>
-    <test started-at="2026-01-15T10:43:18 UTC" name="SmartBazar" finished-at="2026-01-15T10:43:32 UTC" duration-ms="14082">
+    <test started-at="2026-01-16T04:30:47 UTC" name="SmartBazar" finished-at="2026-01-16T04:31:01 UTC" duration-ms="14541">
       <class name="testCase.SmartBazar">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testCase.SmartBazar@694abbdc]" started-at="2026-01-15T10:43:18 UTC" name="setUp" finished-at="2026-01-15T10:43:27 UTC" duration-ms="9027" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCase.SmartBazar@5ffead27]" started-at="2026-01-16T04:30:47 UTC" name="setUp" finished-at="2026-01-16T04:30:57 UTC" duration-ms="9772" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="getPriceTest()[pri:0, instance:testCase.SmartBazar@694abbdc]" started-at="2026-01-15T10:43:27 UTC" name="getPriceTest" finished-at="2026-01-15T10:43:32 UTC" duration-ms="4780" status="PASS">
+        <test-method signature="getPriceTest()[pri:0, instance:testCase.SmartBazar@5ffead27]" started-at="2026-01-16T04:30:57 UTC" name="getPriceTest" finished-at="2026-01-16T04:31:01 UTC" duration-ms="4495" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getPriceTest -->
-        <test-method is-config="true" signature="after()[pri:0, instance:testCase.SmartBazar@694abbdc]" started-at="2026-01-15T10:43:32 UTC" name="after" finished-at="2026-01-15T10:43:32 UTC" duration-ms="213" status="PASS">
+        <test-method is-config="true" signature="after()[pri:0, instance:testCase.SmartBazar@5ffead27]" started-at="2026-01-16T04:31:01 UTC" name="after" finished-at="2026-01-16T04:31:01 UTC" duration-ms="210" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after -->

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SmartBazarTests"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="19.505">
+    <properties></properties>
+
+
+
+            <testcase
+                name="getPriceTest"
+                time="5.044"
+                classname="testCase.SmartBazar">
+            </testcase>
+            <testcase
+                name="getPriceTest"
+                time="5.010"
+                classname="testCase.SmartBazar">
+            </testcase>
+            <testcase
+                name="getPriceTest"
+                time="4.530"
+                classname="testCase.SmartBazar">
+            </testcase>
+            <testcase
+                name="getPriceTest"
+                time="4.921"
+                classname="testCase.SmartBazar">
+            </testcase>
+</testsuite>

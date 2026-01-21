@@ -8,31 +8,38 @@ import org.pages.SearchPage;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+import org.utils.ExcelUtil;
 
-public class SmartBazar {
+import java.io.File;
 
-    @BeforeMethod
-    public void setUp(){
-        Browser.openBrowser("Chrome");
-        Browser.navigation("Smartbazaar - Home");
-    }
+public class SmartBazar extends BaseSmartBazar {
 
-    @Test
-    public  void getPriceTest (){
-        HomePage homepage=new HomePage();
+    @Test(
+            dataProvider = "productData",
+            dataProviderClass = SmartBazarDataProvider.class
+    )
+    public void getPriceTest(String testCase,
+                             String searchItem,
+                             String productName,
+                             String expectedPrice) {
+
+        System.out.println("Test Case --"+testCase);
+        HomePage homepage = new HomePage();
         homepage.popUp1CloseBtn();
-        SearchPage searchPage=new SearchPage();
-        searchPage.searchItem("Rice");
-        ProductListPage productListPage=new ProductListPage();
-        productListPage.getProduct("Niru White Raw Rice (1kg)");
-        DetailsPage detailsPage=new DetailsPage();
-        String price=detailsPage.getDetails();
-        Assert.assertEquals(price,"£2.59");
+
+        SearchPage searchPage = new SearchPage();
+        searchPage.searchItem(searchItem);
+
+        ProductListPage productListPage = new ProductListPage();
+        productListPage.getProduct(productName);
+
+        DetailsPage detailsPage = new DetailsPage();
+        String actualPrice = detailsPage.getDetails();
+        Assert.assertEquals(actualPrice, expectedPrice);
     }
 
-    @AfterMethod
-    public void after(){
-        Browser.closeBrowser();
-    }
+
+
 }
